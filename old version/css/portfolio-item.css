@@ -13,10 +13,10 @@
   	font-size: 20px;
   }
   img {
-  	vertical-align: middle;
   	border-color: #1abc9c;
   	border-width: 3px;
   	border-style: solid;
+    margin: auto !important;
   }
   .image-column {
   	height:100%;
