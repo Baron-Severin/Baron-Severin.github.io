@@ -60,7 +60,7 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
-					<img src="assets/img/profile.jpg" alt="Severin" class="img-responsive img-circle margin" style="display:inline">
+					<img src="assets/img/profile.jpg" alt="Severin" class="img-responsive img-circle margin" style="margin: 0 auto">
 					<!-- <h1>Hi, I am Stanley!</h1> -->
 					<p style="margin-top:20px;">Hi, I'm Severin, an Android developer in Seattle, Washington!</p>
 				
@@ -166,7 +166,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Hector by Autel</h2>
-                            <h3>Written in under 2 weeks by a team of three</h3>
+                            <h3>Written in under 2 weeks by a team of four</h3>
                             <hr class="star-primary">
                            <!--  <p><a href="https://play.google.com/store/apps/details?id=com.hfad.cocktaillayouts">Google Play Store</a></p> -->
                             <p><a href="https://github.com/Baron-Severin/Hector-Screenshots">GitHub</a></p>
@@ -209,8 +209,8 @@
     </div>
     <!-- End Hector Modal -->
 
-    <!-- Begin BL Modal -->
-    <div class="portfolio-modal modal fade" id="modal-hector" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Begin Macho Squad Modal -->
+    <div class="portfolio-modal modal fade" id="modal-macho-squad" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -222,24 +222,79 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Hector by Autel</h2>
-                            <h3>Written in under 2 weeks by a team of three</h3>
+                            <h2>Macho Squad</h2>
+                            <h3>Written in 2 weeks as a solo project</h3>
+                            <hr class="star-primary">
+                            <p><a href="https://play.google.com/store/apps/details?id=com.rudie.severin.machosquad">Google Play Store</a></p>
+                            <p><a href="https://github.com/Baron-Severin/Text-Adventure">GitHub</a></p>
+                            <img src="assets/img/macho-squad-multiple.png" class="img-centered" alt="">
+                            <p align="left">
+                              A tongue in cheek, 1980's sci fi themed, choose your own adventure game. Severin wrote all code for the app, and additionally wrote a Python script that a non-technical collaborator used to format written content into Java.
+                            </p>
+                            <!-- <p align="left"><b>API calls were taken from an existing app, all other code was rebuilt from the ground up.</b>
+                            </p> -->
+                            <p align="left">Major concepts used for the project include: </p>
+                            <ul>
+                             <li align="left" class="matt-bullet"> SQLite database;</li>
+                             <li align="left" class="matt-bullet"> Fabric analytics;</li>
+                             <li align="left" class="matt-bullet"> Images are loaded asynchronously;</li>
+                             <li align="left" class="matt-bullet"> A Pager;</li>
+                             <li align="left" class="matt-bullet"> A RecyclerView is reordered on drag;</li>
+                           </ul>
+                           <br>
+                            <div class="row">
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/horses_neck.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/mint_moscow.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/search_function.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Macho Squad Modal -->
+
+    <!-- Begin BL Modal -->
+    <div class="portfolio-modal modal fade" id="modal-builders-lighting" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Builder's Lighting</h2>
+                            <h3>Written in 2 weeks by a team of three</h3>
                             <hr class="star-primary">
                            <!--  <p><a href="https://play.google.com/store/apps/details?id=com.hfad.cocktaillayouts">Google Play Store</a></p> -->
-                            <p><a href="https://github.com/Baron-Severin/Hector-Screenshots">GitHub</a></p>
-                            <img src="assets/img/hector-multiple.png" class="img-centered" alt="">
+                            <p><a href="https://github.com/Baron-Severin/Builders-Lighting-Screenshots">GitHub</a></p>
+                            <img src="assets/img/builders-lighting-multiple.png" class="img-centered" alt="">
                             <p align="left">
-                              Hector is designed to simplify agricultural surveying using drones produced by Autel Robotics. Given a polygon drawn by the user, the application will produce and store a survey route that will cover the entire selected area. 
+                              Written for Seattle Lighting as a replacement for their current production app, this has been designed to simplify bulk lighting orders. This will soon be available in the Google Play Store.
                             </p>
-                            <p align="left"><b>With the click of a button, Hector will convert this route into coordinates, transmit them to an active drone, and have it carry out the flight plan.</b>
+                            <p align="left"><b>API calls were taken from an existing app, all other code was rebuilt from the ground up.</b>
                             </p>
                             <p align="left">Severin's primary contributions to the project were: </p>
                             <ul>
                              <li align="left" class="matt-bullet"> Writing all SQLite DB interaction;</li>
-                             <li align="left" class="matt-bullet"> Writing all tests;</li>
                              <li align="left" class="matt-bullet"> Setting up all data models;</li>
-                             <li align="left" class="matt-bullet"> Creating RecyclerViews and their adapters;</li>
-                             <li align="left" class="matt-bullet"> Paired programming on controller with Matt Duffin;</li>
+                             <li align="left" class="matt-bullet"> Developing our approach to data persistence;</li>
+                             <li align="left" class="matt-bullet"> Reading through legacy code to replicate API calls;</li>
                              <li align="left" class="matt-bullet"> Contributing to user experience design;</li>
                            </ul>
                            <br>
@@ -266,6 +321,60 @@
     </div>
     <!-- End BL Modal -->
 
+<!-- Begin FindMyPet! Modal -->
+    <div class="portfolio-modal modal fade" id="modal-findmypet" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>FindMyPet!</h2>
+                            <h3>Written in 24 hours by three Android developers and 3 UX designers</h3>
+                            <hr class="star-primary">
+                           <!--  <p><a href="https://play.google.com/store/apps/details?id=com.hfad.cocktaillayouts">Google Play Store</a></p> -->
+                            <p><a href="https://github.com/Baron-Severin/hackathon-lost-pets">GitHub</a></p>
+                            <img src="assets/img/findmypet-multiple.png" class="img-centered" alt="">
+                            <p align="left">
+                              This was designed and written in 24 hours as the winning entry for a Socrata hosted hackathon, where the goal was to use a City of Seattle API in a creative way.  This app connects users to information about pets found by the city. Information is then viewed in a searchable format, including an image and contact information for the relevent animal shelter.
+                            </p>
+                            <p align="left"><b>Information is saved to a local database, and additional API calls are only made if data is found to be over 12 hours old. Information will not be dropped until valid updates have been received.</b>
+                            </p>
+                            <p align="left">Severin's primary contributions to the project were: </p>
+                            <ul>
+                             <li align="left" class="matt-bullet"> Writing all SQLite DB interaction;</li>
+                             <li align="left" class="matt-bullet"> Designing our system for requesting data;</li>
+                             <li align="left" class="matt-bullet"> Writing our API calls;</li>
+                             <li align="left" class="matt-bullet"> Writing a search function that simultaneously narrows data by: name; breed; color; region; gender;</li>
+                           </ul>
+                           <br>
+                            <div class="row">
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/horses_neck.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/mint_moscow.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/search_function.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End FindMyPet! Modal -->
 	
 	
 	<!-- +++++ Footer Section +++++ -->
