@@ -33,7 +33,14 @@ h1 {
 	margin-bottom: 30px;
 }
 
+h3 {
+	font-size: 16px;
+}
 
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
 
 /* Paragraph & Typographic */
 p {
@@ -44,6 +51,7 @@ p {
 
 .centered {
     text-align: center;
+    margin: 0 auto;
 }
 
 /* Links */
@@ -239,4 +247,48 @@ bt {
 .glyphicon {
 	font-size: 40px;
 	color: #1abc9c;
+}
+
+.portfolio-modal {
+	text-align: center;
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #2C3E50;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #2C3E50;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
 }

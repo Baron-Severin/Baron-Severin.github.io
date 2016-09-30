@@ -13,6 +13,9 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -71,32 +74,198 @@
 	
 	<div class="container pt">
 		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom green" href="hector.html"><img class="img-responsive" src="assets/img/hector.svg" alt="Hector" /></a>
+	<!-- 		<div class="col-lg-4">
+				<a class="zoom green" data-toggle="modal" data-target="hector-modal.html"><img class="img-responsive" src="assets/img/hector.svg" alt="Hector" /></a>
 				<p>Hector</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="builders-lighting.html"><img class="img-responsive" src="assets/img/builders.svg" alt="Builder's Lighting" /></a>
-				<p>Builder's Lighting</p>
-			</div>
-			<div class="col-lg-4">
+			</div> -->
+
+<div class="col-lg-4 portfolio-item">
+                    <a href="#modal-hector" class="portfolio-link zoom green" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h4>Hector</h4>
+                            </div>
+                        </div>
+                        <img src="assets/img/hector.svg" class="img-responsive" alt="">
+                    </a>
+                </div>
+			<!-- <div class="col-lg-4">
 				<a class="zoom green" href="macho-squad.html"><img class="img-responsive" src="assets/img/macho-squad.svg" alt="Macho Squad" /></a>
 				<p>Macho Squad: Return to Trapistan</p>
-			</div>
+			</div> -->
+			<div class="col-lg-4 portfolio-item">
+                    <a href="#modal-macho-squad" class="portfolio-link zoom green" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h4>Macho Squad</h4>
+                            </div>
+                        </div>
+                        <img src="assets/img/macho-squad.svg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                			<!-- <div class="col-lg-4">
+				<a class="zoom green" href="builders-lighting.html"><img class="img-responsive" src="assets/img/builders.svg" alt="Builder's Lighting" /></a>
+				<p>Builder's Lighting</p>
+			</div> -->
+<div class="col-lg-4 portfolio-item">
+                    <a href="#modal-builders-lighting" class="portfolio-link zoom green" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h4>Builder's Lighting</h4>
+                            </div>
+                        </div>
+                        <img src="assets/img/builders.svg" class="img-responsive" alt="">
+                    </a>
+                </div>
 		</div><!-- /row -->
 		<div class="row mt centered">	
 			<div class="col-lg-4">
 			<!-- Empty, used for spacing purposes -->
 			</div>
-			<div class="col-lg-4">
+			<!-- <div class="col-lg-4">
 				<a class="zoom green" href="findmypet.html"><img class="img-responsive" src="assets/img/findmypet.svg" alt="FindMyPet!" /></a>
 				<p>FindMyPet!</p>
-			</div>
+			</div> -->
+			<div class="col-lg-4 portfolio-item">
+                    <a href="#modal-findmypet" class="portfolio-link zoom green" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h4>FindMyPet!</h4>
+                            </div>
+                        </div>
+                        <img src="assets/img/findmypet.svg" class="img-responsive" alt="">
+                    </a>
+                </div>
 			<div class="col-lg-4">
 			<!-- Empty, used for spacing purposes -->
+
 			</div>
+
+  </div>
+</div>
+
+
+
+
 		</div><!-- /row -->
 	</div><!-- /container -->
+
+
+<!-- Modal Content -->
+<!-- Begin Hector Modal -->
+<div class="portfolio-modal modal fade" id="modal-hector" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hector by Autel</h2>
+                            <h3>Written in under 2 weeks by a team of three</h3>
+                            <hr class="star-primary">
+                           <!--  <p><a href="https://play.google.com/store/apps/details?id=com.hfad.cocktaillayouts">Google Play Store</a></p> -->
+                            <p><a href="https://github.com/Baron-Severin/Hector-Screenshots">GitHub</a></p>
+                            <img src="assets/img/hector-multiple.png" class="img-centered" alt="">
+                            <p align="left">
+                              Hector is designed to simplify agricultural surveying using drones produced by Autel Robotics. Given a polygon drawn by the user, the application will produce and store a survey route that will cover the entire selected area. 
+                            </p>
+                            <p align="left"><b>With the click of a button, Hector will convert this route into coordinates, transmit them to an active drone, and have it carry out the flight plan.</b>
+                            </p>
+                            <p align="left">Severin's primary contributions to the project were: </p>
+                            <ul>
+                             <li align="left" class="matt-bullet"> Writing all SQLite DB interaction;</li>
+                             <li align="left" class="matt-bullet"> Writing all tests;</li>
+                             <li align="left" class="matt-bullet"> Setting up all data models;</li>
+                             <li align="left" class="matt-bullet"> Creating RecyclerViews and their adapters;</li>
+                             <li align="left" class="matt-bullet"> Paired programming on controller with Matt Duffin;</li>
+                             <li align="left" class="matt-bullet"> Contributing to user experience design;</li>
+                           </ul>
+                           <br>
+                            <div class="row">
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/horses_neck.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/mint_moscow.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/search_function.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hector Modal -->
+
+    <!-- Begin BL Modal -->
+    <div class="portfolio-modal modal fade" id="modal-hector" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hector by Autel</h2>
+                            <h3>Written in under 2 weeks by a team of three</h3>
+                            <hr class="star-primary">
+                           <!--  <p><a href="https://play.google.com/store/apps/details?id=com.hfad.cocktaillayouts">Google Play Store</a></p> -->
+                            <p><a href="https://github.com/Baron-Severin/Hector-Screenshots">GitHub</a></p>
+                            <img src="assets/img/hector-multiple.png" class="img-centered" alt="">
+                            <p align="left">
+                              Hector is designed to simplify agricultural surveying using drones produced by Autel Robotics. Given a polygon drawn by the user, the application will produce and store a survey route that will cover the entire selected area. 
+                            </p>
+                            <p align="left"><b>With the click of a button, Hector will convert this route into coordinates, transmit them to an active drone, and have it carry out the flight plan.</b>
+                            </p>
+                            <p align="left">Severin's primary contributions to the project were: </p>
+                            <ul>
+                             <li align="left" class="matt-bullet"> Writing all SQLite DB interaction;</li>
+                             <li align="left" class="matt-bullet"> Writing all tests;</li>
+                             <li align="left" class="matt-bullet"> Setting up all data models;</li>
+                             <li align="left" class="matt-bullet"> Creating RecyclerViews and their adapters;</li>
+                             <li align="left" class="matt-bullet"> Paired programming on controller with Matt Duffin;</li>
+                             <li align="left" class="matt-bullet"> Contributing to user experience design;</li>
+                           </ul>
+                           <br>
+                            <div class="row">
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/horses_neck.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/mint_moscow.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                              <div class="col-sm-4 portfolio-item">
+                                <img src="img/screenshots/cocktails/search_function.png" class="img-centered matt-screenshot" alt="">
+                                <p>Text about screenshot</p>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End BL Modal -->
+
 	
 	
 	<!-- +++++ Footer Section +++++ -->
