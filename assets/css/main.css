@@ -56,6 +56,11 @@ p {
     width: 100%;
 }
 
+.portfolio-item {
+	border-style: solid;
+	border-width: 5px;
+}
+
 /* Links */
 a {
     color: #1abc9c;
